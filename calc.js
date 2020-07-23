@@ -25,5 +25,5 @@ function square(){
 }
 function square_rt(){
     if(dfvalue != ""  && parseFloat(dfvalue)>=0 )
-    document.getElementById('output').innerHTML =Math.pow(parseFloat(dfvalue),2);
+    document.getElementById('output').innerHTML =Math.sqrt(parseFloat(dfvalue));
 }
