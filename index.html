@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="calc.css">
+  <script src="calc.js"></script>
+</head>
+<body>
+    <div class="calcframe">
+        <div id="screen">
+          <div id="inputBox">
+            <p id="inputData"></p>
+          </div>
+          <div class="resultBox">
+            <p id="output"></p>
+          </div>
+        </div>
+        <div class="keypad">
+          <table>
+            <tr>
+              <td><input type="button" value="1" class="btn" onclick="inputValue('1')"></td>
+              <td><input type="button" value="2" class="btn" onclick="inputValue('2')"></td>
+              <td><input type="button" value="3" class="btn" onclick="inputValue('3')"></td>
+              <td><input type="button" value="+" class="btn" onclick="inputValue('+')"></td>
+            </tr>
+            <tr>
+            <td><input type="button" value="4" class="btn" onclick="inputValue('4')"></td>
+            <td><input type="button" value="5" class="btn" onclick="inputValue('5')"></td>
+            <td><input type="button" value="6" class="btn" onclick="inputValue('6')"></td>
+            <td><input type="button" value="-" class="btn" onclick="inputValue('-')"></td>
+          </tr>
+            <tr>
+            <td><input type="button" value="7" class="btn" onclick="inputValue('7')"></td>
+            <td><input type="button" value="8" class="btn" onclick="inputValue('8')"></td>
+            <td><input type="button" value="9" class="btn" onclick="inputValue('9')"></td>
+            <td><input type="button" value="*" class="btn" onclick="inputValue('*')""></td>
+          </tr>
+            <tr>
+              <td><input type="button" value="." class="btn" onclick="inputValue('.')"></td>
+              <td><input type="button" value="0" class="btn" onclick="inputValue('0')"></td>
+              <td><input type="button" value="/" class="btn" onclick="inputValue('/')"></td>
+              <td><input type="button" value="ans" class="btn" onclick="inputValue('=')"></td>
+            </tr>
+          </table>
+    </div>
+</body>
+</html>
