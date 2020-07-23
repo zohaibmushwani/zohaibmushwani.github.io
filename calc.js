@@ -23,3 +23,7 @@ function square(){
     if(dfvalue != "")
     document.getElementById('output').innerHTML =Math.pow(parseFloat(dfvalue),2);
 }
+function square_rt(){
+    if(dfvalue != ""  && parseFloat(dfvalue)>=0 )
+    document.getElementById('output').innerHTML =Math.pow(parseFloat(dfvalue),2);
+}
