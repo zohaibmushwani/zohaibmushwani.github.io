@@ -8,3 +8,18 @@ function inputValue(inputval) {
     document.getElementById('inputData').innerHTML = dfvalue;
     }
 }
+function del(){
+    if(dfvalue.length != 0){
+        dfvalue = dfvalue.slice(0,dfvalue.length-1);
+        document.getElementById('inputData').innerHTML = dfvalue;
+    }
+}
+function clr(){
+    dfvalue = ""
+    document.getElementById('inputData').innerHTML = dfvalue;
+    document.getElementById('output').innerHTML ="";
+}
+function square(){
+    if(dfvalue != "")
+    document.getElementById('output').innerHTML =Math.pow(parseFloat(dfvalue),2);
+}
