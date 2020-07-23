@@ -15,22 +15,17 @@ body {
   border-radius: 9%;
 }
 #screen{
-  height: 30%;
+  height: 20%;
   border-radius: 20px 20px 0px 0px;
   border: 12px solid #ddd;
   padding: 0px 16px;
 } 
 .inputBox{
-margin: 50px;
 padding: 10px;
-text-align: left;
-font-size: 12pt;
-border: #00A5D2;
+/* text-align: left; */
+font-weight: bold;
 }
 .resultBox{
-margin: 12px;
-font-size: 20pt;
-text-align: right;
 font-weight: bolder;
 }
 input[type=button]{
@@ -50,7 +45,7 @@ input[type=button]{
   cursor: pointer;
 }
 .keypad{
-  height: 70%;
+  height: 80%;
   border: 10px solid #ddd;
   padding: 20px 30px;
   border-radius: 9%;
